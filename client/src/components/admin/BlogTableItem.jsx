@@ -54,9 +54,10 @@ function BlogTableItem({ blog, fetchBlogs, index }) {
           {blog.isPublished ? 'Published' : 'Unpublished'}
         </p>
       </td>
+      {/* actions */}
       <td className="px-2 py-4 flex text-xs gap-3">
         <button
-          className="border px-2 py-0.5 mt-1 rounded cursor-pointer"
+          className="border px-2 py-0.5 mt-1 min-w-[90px] rounded cursor-pointer"
           onClick={togglePublish}
         >
           {blog.isPublished ? 'Unpublish' : 'Publish'}

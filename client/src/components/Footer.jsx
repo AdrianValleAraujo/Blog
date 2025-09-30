@@ -35,7 +35,7 @@ function Footer() {
       </div>
 
       <p className="py-4 text-center text-sm md:text-base text-gray-500/80">
-        Copyright &copy; 2025 QuickBlog - All Right Reserved
+        Copyright &copy; 2025 Blog - All Right Reserved
       </p>
     </footer>
   )
