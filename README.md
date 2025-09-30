@@ -1,6 +1,8 @@
 
 # 🚀 AI Blog App - README
 
+![screenshot del home](https://res.cloudinary.com/dgdcfmnnx/image/upload/v1759251109/blog_fnvgzz.png)
+
 ---
 
 ## 📝 Descripción del Proyecto
