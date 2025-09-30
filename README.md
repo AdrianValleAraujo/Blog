@@ -1,7 +1,9 @@
 
 # 🚀 AI Blog App - README
 
-![screenshot del home](https://res.cloudinary.com/dgdcfmnnx/image/upload/v1759251109/blog_fnvgzz.png)
+![screenshot del home](https://res.cloudinary.com/dgdcfmnnx/image/upload/v1759265929/blog_kiz4tu.png)
+![screenshot del dashboard](https://res.cloudinary.com/dgdcfmnnx/image/upload/v1759265890/dashboard-blog_pbb7zt.png)
+
 
 ---
 
