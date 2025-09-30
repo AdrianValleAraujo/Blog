@@ -1,4 +1,6 @@
-import { assets, footer_data } from '../assets/assets'
+import { Link } from 'react-router-dom'
+import { footer_data } from '../assets/assets'
+import Logo from './Logo'
 
 function Footer() {
   return (
@@ -6,11 +8,7 @@ function Footer() {
       <div className="flex flex-col md:flex-row items-start justify-between gap-10 py-10 border-b border-gray-500/30 text-gray-500">
         {/* logo */}
         <div>
-          <img
-            src={assets.logo}
-            alt="Quickblog logo"
-            className="w-32 sm:w-44"
-          />
+          <Logo />
           <p className="max-w-[410px] mt-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quod.
           </p>
