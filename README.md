@@ -1,4 +1,6 @@
 🚀 AI Blog App - README
+</br>
+
 📝 Descripción del Proyecto
 AI Blog App es una aplicación web full-stack que incluye un sistema de gestión de blogs con capacidades de generación de contenido asistida por Inteligencia Artificial (IA). El proyecto comprende un frontend interactivo construido con React y un backend robusto que gestiona la lógica de negocio, la base de datos MongoDB y la interacción con servicios externos para el almacenamiento de imágenes y la generación de contenido.
 
