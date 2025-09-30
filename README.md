@@ -40,7 +40,7 @@ El desarrollo se enfocó en las siguientes áreas clave:
 * **Frontend**: React
 * **Base de Datos**: MongoDB
 * **Almacenamiento de Imágenes**: ImageKit
-* **Inteligencia Artificial**: Servicio de IA para generación de contenido (motor específico no detallado).
+* **Inteligencia Artificial**: Servicio de IA para generación de contenido.
 
 ---
 
