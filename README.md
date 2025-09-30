@@ -1,3 +1,5 @@
+¡Absolutamente! Aquí tienes el **README** final, con la información de prueba añadida y todo en formato Markdown.
+
 # 🚀 AI Blog App - README
 
 ---
@@ -32,6 +34,17 @@ El desarrollo se enfocó en las siguientes áreas clave:
 ### Integraciones y Servicios Clave
 * **Generación de Contenido por IA**: Implementación de la funcionalidad para **generar contenido de blog utilizando Inteligencia Artificial**.
 * **ImageKit**: Integración de servicio externo para la **subida y almacenamiento** eficiente de las imágenes de los posts.
+
+---
+
+## 🔑 Credenciales de Prueba (Solo Admin)
+
+Utiliza estas credenciales para acceder al **Dashboard de Administración** en el entorno desplegado y probar las funcionalidades de gestión y la generación de contenido asistida por IA:
+
+| Campo | Valor |
+| :--- | :--- |
+| **Email** | `admin@example.com` |
+| **Contraseña** | `francoblog` |
 
 ---
 
