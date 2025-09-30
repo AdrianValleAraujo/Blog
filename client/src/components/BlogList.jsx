@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { blog_data, blogCategories } from '../assets/assets'
+import { blogCategories } from '../assets/assets'
 // eslint-disable-next-line
 import { motion } from 'motion/react'
 import BlogCard from './BlogCard'
@@ -7,7 +7,6 @@ import { useAppContext } from '../context/AppContext'
 
 function BlogList() {
   const [menu, setMenu] = useState('All')
-
   const { blogs, input } = useAppContext()
 
   const filteredBlogs = () => {
@@ -18,6 +17,11 @@ function BlogList() {
         blog.category.toLowerCase().includes(input.toLowerCase())
     )
   }
+
+  const isEmpty =
+    filteredBlogs().filter((blog) =>
+      menu === 'All' ? true : blog.category === menu
+    ).length > 0
 
   return (
     <div>
@@ -44,22 +48,28 @@ function BlogList() {
         ))}
       </div>
       {/* blog cards */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 mb-24 mx-8 sm:mx-16 xl:mx-40">
-        {filteredBlogs()
-          .filter((blog) => (menu === 'All' ? true : blog.category === menu))
-          .map((blog) => {
-            return (
-              <motion.div
-                key={blog._id}
-                animate={{ opacity: 1 }}
-                initial={{ opacity: 0 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.5 }}
-              >
-                <BlogCard blog={blog} />
-              </motion.div>
-            )
-          })}
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-8 mb-24 mx-8 sm:mx-16 xl:mx-40 min-h-10">
+        {isEmpty ? (
+          filteredBlogs()
+            .filter((blog) => (menu === 'All' ? true : blog.category === menu))
+            .map((blog) => {
+              return (
+                <motion.div
+                  key={blog._id}
+                  animate={{ opacity: 1 }}
+                  initial={{ opacity: 0 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.5 }}
+                >
+                  <BlogCard blog={blog} />
+                </motion.div>
+              )
+            })
+        ) : (
+          <p className="text-center text-gray-600 col-span-4 mx-auto w-full text-2xl  md:text-3xl">
+            No blogs founds
+          </p>
+        )}
       </div>
     </div>
   )
