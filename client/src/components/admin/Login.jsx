@@ -81,6 +81,16 @@ function Login() {
               Login
             </button>
           </form>
+          {/* credentials demo */}
+          <footer className="bg-orange-400/10 shadow w-full p-4 mt-4 rounded">
+            <h4 className="text-md font-bold">Demo credentials:</h4>
+            <p className="text-gray-500">
+              Email: <span className="font-semibold">admin@example.com</span>
+            </p>
+            <p className="text-gray-500">
+              Password: <span className="font-semibold">francoblog</span>
+            </p>
+          </footer>
         </div>
       </div>
     </div>
