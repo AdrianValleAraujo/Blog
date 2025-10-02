@@ -4,10 +4,11 @@ import { blogCategories } from '../assets/assets'
 import { motion } from 'motion/react'
 import BlogCard from './BlogCard'
 import { useAppContext } from '../context/AppContext'
+import Loader from './Loader'
 
 function BlogList() {
   const [menu, setMenu] = useState('All')
-  const { blogs, input } = useAppContext()
+  const { blogs, input, loading } = useAppContext()
 
   const filteredBlogs = () => {
     if (input === '') return blogs
@@ -22,6 +23,10 @@ function BlogList() {
     filteredBlogs().filter((blog) =>
       menu === 'All' ? true : blog.category === menu
     ).length > 0
+
+  if (loading) {
+    return <Loader />
+  }
 
   return (
     <div>
